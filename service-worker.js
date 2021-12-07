@@ -14,7 +14,15 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD:service-worker.js
+<<<<<<< HEAD:service-worker.js
   "/precache-manifest.835d1ef728aac41fda06824571f57c5e.js"
+=======
+  "/precache-manifest.0cb58a91c322a92ac58b83e8d45474e4.js"
+>>>>>>> 277b325 (Removed unnecesary code and fully formatted):build/service-worker.js
+=======
+  "/precache-manifest.890d1fee06f8ccc511f49d9cef399237.js"
+>>>>>>> 9135c21 (Added updated info: Education, Work Experience, Skills and Repos):build/service-worker.js
 );
 
 self.addEventListener('message', (event) => {
