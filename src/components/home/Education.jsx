@@ -1,24 +1,24 @@
 import React from 'react';
-import ExperienceCard from "./ExperienceCard";
+import EducationCard from "./EducationCard";
 import {
     Container,
     Row,
     Jumbotron
 } from "react-bootstrap";
 
-const Experience = ({experiences}) => {
+const Education = ({education}) => {
     return (
-    <div id="experiences">
+    <div id="education">
         <section className="section">
             <Container>
                 <Jumbotron fluid className="bg-white">
                     <h2 className="display-4 mb-5 text-center">
-                        {experiences.heading}
+                        {education.heading}
                     </h2>
                     <Row>
                         {
-                            experiences.data.map(data => {
-                                return <ExperienceCard key={data.company} data={data} />
+                            education.data.map(data => {
+                                return <EducationCard key={data.institution} data={data} />
                             })
                         }
                     </Row>
@@ -29,4 +29,4 @@ const Experience = ({experiences}) => {
     );
 }
  
-export default Experience;
+export default Education;

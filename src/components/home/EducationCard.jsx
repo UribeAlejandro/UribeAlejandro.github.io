@@ -4,16 +4,17 @@ import {
     Col,
     Card
  } from "react-bootstrap";
-const ExperienceCard = ({data}) => {
+const EducationCard = ({data}) => {
     return ( 
         <Col lg="6">
             <div className="pb-5 text-center">
 
                 <p className="lead">
-                <strong>{data.role}</strong>
+                <strong>{data.title}</strong>
                     <br/>
-                    <a href={data.companywebpage}>{data.companyname}</a>
+                    <i>{data.degree}</i>
                     <br/>
+                    <p>{data.institution}</p>
                     {data.date}
                 </p>
                 
@@ -22,4 +23,4 @@ const ExperienceCard = ({data}) => {
      );
 }
  
-export default ExperienceCard;
+export default EducationCard;

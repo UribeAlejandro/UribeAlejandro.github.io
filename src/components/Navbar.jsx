@@ -4,10 +4,9 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import { mainBody, repos, about, skills, experiences, education } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
-  // const { showBlog, FirstName } = config;
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const navbarMenuRef = React.useRef();
@@ -45,33 +44,37 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          {/* {
-            <Nav.Link className="nav-link lead">
-              <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
+
+          {about.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#aboutme"}
+            >
+              About Me
             </Nav.Link>
-          } */}
+          )}
+          {experiences.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#experiences"}
+            >
+              Experiences
+            </Nav.Link>
+          )}
+          {education.show && (
+            <Nav.Link
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#education"}
+            >
+              Education
+            </Nav.Link>
+          )}
           {repos.show && (
             <Nav.Link
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
             >
               Projects
-            </Nav.Link>
-          )}
-          <Nav.Link
-            className="nav-link lead"
-            href={about.resume}
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Resume
-          </Nav.Link>
-          {about.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              About
             </Nav.Link>
           )}
           {skills.show && (

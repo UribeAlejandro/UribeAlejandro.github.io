@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Alejandro",
   middleName: "",
   lastName: "Uribe",
-  message: " Passionate about changing the world positively with the power of the data.",
+  message: " Passionate about changing the world positively with the power of data.",
   icons: [
     {
       image: "fa-github",
@@ -18,6 +18,10 @@ const mainBody = {
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/jauribe/",
+    },
+    {
+      image: "far fa-calendar-plus",
+      url: "https://calendly.com/jauriberamirez/30min",
     },
   ],
 };
@@ -56,38 +60,13 @@ const repos = {
   gitHubUsername: "UribeAlejandro", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-  'NLP_MovieReviews_SentimentAnalysis',
-  'ComputerVision_MNIST',
-  'NaiveBayes-with-TensorFlowProbability',
-  'RecommenderSystem_Movies',
-  'Python_TicTacToe',
-  'ComputerVision_SVHN'
+      'NLP_MovieReviews_SentimentAnalysis',
+      'RecommenderSystem_Movies',
+      'ComputerVision_MNIST',
+      'Python_TicTacToe',
+      'ComputerVision_SVHN',
+      'NaiveBayes-with-TensorFlowProbability',
   ],
-};
-
-// Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      // img: require("../editable-stuff/UribeAlejandro.png"),
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      // img: require("../editable-stuff/UribeAlejandro.png"),
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
 };
 
 // SKILLS SECTION
@@ -95,25 +74,30 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python"},
-    { name: "SQL"},
-    { name: "Google Cloud Platform" },
-    { name: "Amazon Web Services" },
-    { name: "Artificial Intelligence" },
+    { name: "SQL" },
     { name: "Docker" },
+    { name: "Google Cloud Platform" },
+
+    { name: "Python" },
+    { name: "Artificial Intelligence" },
+    { name: "Amazon Web Services" },
+
+    { name: "Pandas" },
     { name: "TensorFlow" },
     { name: "Scikit-Learn" },
-    { name: "Pandas" },
   ],
-  softSkills: [
-    { name: "Goal-Oriented" },
-    { name: "Collaboration" },
-    { name: "Positivity" },
-    { name: "Adaptability" },
-    { name: "Problem Solving" },
-    { name: "Empathy" },
-    { name: "Organization" },
-    { name: "Creativity" },
+  interests: [
+    { name: "Cycling" },
+    { name: "Photography" },
+    { name: "MLOps" },
+    { name: "Computer Vision" },
+    { name: "Data Storytelling" },
+    { name: "Natural Language Processing" },
+  ],
+  languages: [
+    { name: "Spanish", value: 'Native' },
+    { name: "English", value: 'Full Professional Proficiency' },
+    { name: "French", value: 'Elementary Proficiency' },
   ],
 };
 
@@ -122,7 +106,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I am currently looking for full-time Artificial Intelligence related opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I am currently looking for full-time and freelance Artificial Intelligence related opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "jauriberamirez@gmail.com",
 };
 
@@ -133,29 +117,47 @@ const experiences = {
     {
       role: 'Machine Learning Engineer',
       companyname: 'Datavalue.AI',
+      companywebpage: "https://www.datavalue.ai/",
       date: 'March 2021 – Present',
     },
     {
       role: 'Business Intelligence / Data Analyst Intern',
       companyname: 'Virtuagym',
+      companywebpage: "https://virtuagym.com/",
       date: 'September 2020 – February 2021',
     },
     {
       role: 'Risk Management Supervisor / Risk Management Analyst / Workplan Sports Trader',
       companyname: 'Genius Sports',
+      companywebpage: "https://geniussports.com/",
       date: 'July 2018 – August 2020',
     },
     {
       role: 'International Exams Supervisor',
       companyname: 'British Council',
+      companywebpage: "https://learnenglish.britishcouncil.org/",
       date: 'July 2018 – August 2020',
     },
   ]
 }
 
-//Blog SECTION
-//const blog = {
-//    show: true,
-//};
+const education = {
+  show: true,
+  heading: "Education",
+  data: [
+    {
+      title: 'Artificial Intelligence Specialist',
+      degree: 'Postgraduate Diploma',
+      institution: "National University of Colombia",
+      date: '2020 - 2021',
+    },
+    {
+      title: 'Chemical Engineer',
+      degree: 'Bachelor of Engineering',
+      institution: "National University of Colombia",
+      date: '2012 - 2017',
+    },
+  ]
+}
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences};
+export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education};

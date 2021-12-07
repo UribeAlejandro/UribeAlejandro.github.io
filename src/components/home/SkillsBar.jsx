@@ -1,11 +1,10 @@
 import React from "react";
-import ProgressBar from "react-bootstrap/ProgressBar";
 
-//function SkillsBar({ skill, value, isScrolled }) {
-function SkillsBar({ skill, isScrolled }) {
+function SkillsBar({ skill, value, isScrolled }) {
   return (
     <div style={{ width: "95%" }}>
-      <p className="lead mb-1 mt-2">{skill}</p>
+      <p className="lead mb-1 mt-2" align="center">{skill}</p>
+      <center>  <b> <i className="lead mb-1 mt-2">{value}</i></b> </center>
     </div>
   );
 }

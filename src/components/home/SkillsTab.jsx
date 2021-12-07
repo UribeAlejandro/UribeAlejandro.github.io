@@ -9,7 +9,7 @@ function SkillsSection({ skills, isScrolled }) {
         <SkillsBar
           key={`${skill}-${index}`}
           skill={skill.name}
-          //value={skill.value}
+          value={skill.value}
           isScrolled={isScrolled}
         />
       ))}
@@ -20,15 +20,21 @@ function SkillsSection({ skills, isScrolled }) {
 function SkillsTab({ skills, isScrolled }) {
   return (
     <>
-      <Col xs={12} md={6}>
+      <Col xs={18} md={4}>
         <SkillsSection
-          skills={skills.slice(0, Math.floor(skills.length / 2))}
+          skills={skills.slice(0, Math.floor(skills.length / 3))}
           isScrolled={isScrolled}
         />
       </Col>
-      <Col xs={12} md={6}>
+      <Col xs={18} md={4}>
         <SkillsSection
-          skills={skills.slice(Math.floor(skills.length / 2), skills.length)}
+          skills={skills.slice(Math.floor(skills.length / 3), skills.length - Math.floor(skills.length / 3))}
+          isScrolled={isScrolled}
+        />
+      </Col>
+      <Col xs={18} md={4}>
+        <SkillsSection
+          skills={skills.slice(skills.length - Math.floor(skills.length / 3), skills.length)}
           isScrolled={isScrolled}
         />
       </Col>
