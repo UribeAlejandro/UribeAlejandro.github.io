@@ -14,7 +14,8 @@ const EducationCard = ({data}) => {
                     <br/>
                     <i>{data.degree}</i>
                     <br/>
-                    <p>{data.institution}</p>
+                    <a href={data.url}>{data.institution}</a>
+                    <br/>
                     {data.date}
                 </p>
                 

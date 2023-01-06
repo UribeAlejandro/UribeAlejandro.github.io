@@ -20,9 +20,13 @@ const mainBody = {
       url: "https://www.linkedin.com/in/jauribe/",
     },
     {
+      image: "fab fa-brands fa-medium",
+      url: "https://medium.com/@uribealejandro"
+    },
+    {
       image: "far fa-calendar-plus",
       url: "https://calendly.com/jauriberamirez/30min",
-    },
+    }
   ],
 };
 
@@ -45,7 +49,7 @@ const about = {
   heading: "About Me",
   imageSize: 375,
   message:
-    "My name is Alejandro Uribe. I am a graduate fom National University of Colombia with a degree in Chemical Engineering and a Postgraduate Diploma in Artificial Intelligence. I am passionate about data and its power to change the world positively, and my goal is to pursue this passion within the field of Artificial Intelligence. In my free time I enjoy cycling and watching movies.",
+    "I am a Machine Learning Engineer with experience in building AI models, implementing data warehouses, and introducing automation to improve analytics efficiency. Currently, I am studying a Master in Artificial Intelligence. I have a Postgraduate Diploma in Artificial Intelligence, and a Bachelor's Degree in Chemical Engineering. I am passionate about data and its power to change the world positively, thus my goal is to pursue this passion within the field of Artificial Intelligence. In my free time I enjoy running, cycling and watching movies.",
   resume: "https://drive.google.com/file/d/1dizt8vGomK_Vk9zw_EQp1rCGszdxpXBM/view?usp=sharing",
 };
 
@@ -57,15 +61,15 @@ const about = {
 const repos = {
   show: true,
   heading: "Projects",
-  gitHubUsername: "UribeAlejandro", //i.e."johnDoe12Gh"
+  gitHubUsername: "UribeAlejandro",
   reposLength: 0,
   specificRepos: [
-      'NLP_MovieReviews_SentimentAnalysis',
-      'RecommenderSystem_Movies',
+      'Hands_On_MLFlow',
+      'Do_not_Believe_the_Hype',
+      'Scala_ML_LinearRegression',
+      'Scala_ML_PCA',
       'ComputerVision_MNIST',
-      'Python_TicTacToe',
       'ComputerVision_SVHN',
-      'NaiveBayes-with-TensorFlowProbability',
   ],
 };
 
@@ -74,25 +78,29 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "SQL" },
+    { name: "Python / R" },
+    { name: "Java / Scala" },
+    { name: "SQL / NoSQL" },
+
+
     { name: "Docker" },
-    { name: "Google Cloud Platform" },
+    { name: "Machine Learning Operations" },
+    { name: "Machine Learning / Deep Learning" },
 
-    { name: "Python" },
-    { name: "Artificial Intelligence" },
+    { name: "SnowFlake" },
     { name: "Amazon Web Services" },
-
-    { name: "Pandas" },
-    { name: "TensorFlow" },
-    { name: "Scikit-Learn" },
+    { name: "Google Cloud Platform" },
   ],
   interests: [
     { name: "Cycling" },
     { name: "Photography" },
-    { name: "MLOps" },
-    { name: "Computer Vision" },
-    { name: "Data Storytelling" },
-    { name: "Natural Language Processing" },
+
+    { name: "" },
+    { name: "" },
+
+    { name: "Embedded Systems" },
+    { name: "Internet of Things" },
+
   ],
   languages: [
     { name: "Spanish", value: 'Native' },
@@ -112,13 +120,19 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Experiences",
+  heading: "Work Experience",
   data: [
     {
       role: 'Machine Learning Engineer',
-      companyname: 'Datavalue.AI',
-      companywebpage: "https://www.datavalue.ai/",
-      date: 'March 2021 – Present',
+      companyname: 'Factored AI',
+      companywebpage: "https://www.factored.ai/",
+      date: 'April 2022 – Present',
+    },
+    {
+      role: 'Machine Learning Engineer',
+      companyname: 'Celes',
+      companywebpage: "https://www.getceles.com/",
+      date: 'March 2021 – March 2022',
     },
     {
       role: 'Business Intelligence / Data Analyst Intern',
@@ -135,7 +149,7 @@ const experiences = {
     {
       role: 'International Exams Supervisor',
       companyname: 'British Council',
-      companywebpage: "https://learnenglish.britishcouncil.org/",
+      companywebpage: "https://www.britishcouncil.co/",
       date: 'July 2018 – August 2020',
     },
   ]
@@ -146,18 +160,28 @@ const education = {
   heading: "Education",
   data: [
     {
+      title: 'Data Mining & Knowledge Discovery',
+      degree: "Master's degree",
+      institution: "University of Buenos Aires",
+      url: "https://www.uba.ar/#/",
+      date: '2022 - 2024',
+    },
+    {
       title: 'Artificial Intelligence Specialist',
       degree: 'Postgraduate Diploma',
       institution: "National University of Colombia",
+      url: "https://unal.edu.co/",
       date: '2020 - 2021',
     },
     {
       title: 'Chemical Engineer',
       degree: 'Bachelor of Engineering',
       institution: "National University of Colombia",
+      url: "https://unal.edu.co/",
       date: '2012 - 2017',
     },
   ]
 }
 
 export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education};
+

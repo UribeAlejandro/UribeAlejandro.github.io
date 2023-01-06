@@ -65,7 +65,6 @@ const Home = React.forwardRef((props, ref) => {
           languages={skills.languages}
         />
       )}
-      
     </>
   );
 });
