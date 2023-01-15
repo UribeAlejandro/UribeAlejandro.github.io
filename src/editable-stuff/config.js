@@ -12,8 +12,8 @@ const mainBody = {
   message: " Passionate about changing the world positively with the power of data.",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/UribeAlejandro",
+      image: "far fa-calendar-plus",
+      url: "https://calendly.com/uribealejandro/30min",
     },
     {
       image: "fa-linkedin",
@@ -24,9 +24,17 @@ const mainBody = {
       url: "https://medium.com/@uribealejandro"
     },
     {
-      image: "far fa-calendar-plus",
-      url: "https://calendly.com/jauriberamirez/30min",
-    }
+      image: "fa-github",
+      url: "https://github.com/UribeAlejandro",
+    },
+    {
+      image: "fa-brands fa-kaggle",
+      url: "https://www.kaggle.com/alejandrouribe"
+    },
+    {
+      image: "fa-brands fa-hackerrank",
+      url: "https://www.hackerrank.com/UribeAlejandro"
+    },
   ],
 };
 
@@ -50,7 +58,7 @@ const about = {
   imageSize: 375,
   message:
     "I am a Machine Learning Engineer with experience in building AI models, implementing data warehouses, and introducing automation to improve analytics efficiency. Currently, I am studying a Master in Artificial Intelligence. I have a Postgraduate Diploma in Artificial Intelligence, and a Bachelor's Degree in Chemical Engineering. I am passionate about data and its power to change the world positively, thus my goal is to pursue this passion within the field of Artificial Intelligence. In my free time I enjoy running, cycling and watching movies.",
-  resume: "https://drive.google.com/file/d/1dizt8vGomK_Vk9zw_EQp1rCGszdxpXBM/view?usp=sharing",
+  resume: "https://docs.google.com/document/d/1vtL4pj9FiRJ2kxAWUQ4MtOaJYYXpX2_7bSRJcZDqtLw/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -64,6 +72,8 @@ const repos = {
   gitHubUsername: "UribeAlejandro",
   reposLength: 0,
   specificRepos: [
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
     'NLP_MovieReviews_SentimentAnalysis',
     'RecommenderSystem_Movies',
@@ -79,6 +89,14 @@ const repos = {
       'ComputerVision_MNIST',
       'ComputerVision_SVHN',
 >>>>>>> 9135c21 (Added updated info: Education, Work Experience, Skills and Repos)
+=======
+=======
+    'ExperimentTracking-StrategyPattern',
+>>>>>>> 27574a0 (Updates)
+    'Hands_On_MLFlow',
+    'Scala_ML_PCA',
+    'Scala_ML_LinearRegression',
+>>>>>>> 7cbe713 (Added link to links-tree, corrected dates of job, modified link to curriculum)
   ],
 };
 
@@ -92,23 +110,23 @@ const skills = {
     { name: "SQL / NoSQL" },
 
 
-    { name: "Docker" },
+    { name: "MLOps" },
     { name: "Machine Learning Operations" },
     { name: "Machine Learning / Deep Learning" },
 
+    { name: "AWS / GCP" },
     { name: "SnowFlake" },
-    { name: "Amazon Web Services" },
-    { name: "Google Cloud Platform" },
+    { name: "Databricks" },
   ],
   interests: [
     { name: "Cycling" },
     { name: "Photography" },
 
-    { name: "" },
-    { name: "" },
+    { name: "Nuclear Energy" },
+    { name: "Distributed computing" },
 
-    { name: "Embedded Systems" },
     { name: "Internet of Things" },
+    { name: "Embedded Systems" },
 
   ],
   languages: [
@@ -124,7 +142,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I am currently looking for full-time and freelance Artificial Intelligence related opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "jauriberamirez@gmail.com",
+  email: "contact.uribe.alejandro@gmail.com",
 };
 
 const experiences = {
@@ -135,31 +153,31 @@ const experiences = {
       role: 'Machine Learning Engineer',
       companyname: 'Factored AI',
       companywebpage: "https://www.factored.ai/",
-      date: 'April 2022 – Present',
+      date: 'April 2022 - Present',
     },
     {
       role: 'Machine Learning Engineer',
       companyname: 'Celes',
       companywebpage: "https://www.getceles.com/",
-      date: 'March 2021 – March 2022',
+      date: 'March 2021 - March 2022',
     },
     {
       role: 'Business Intelligence / Data Analyst Intern',
       companyname: 'Virtuagym',
       companywebpage: "https://virtuagym.com/",
-      date: 'September 2020 – February 2021',
+      date: 'September 2020 - February 2021',
     },
     {
       role: 'Risk Management Supervisor / Risk Management Analyst / Workplan Sports Trader',
       companyname: 'Genius Sports',
       companywebpage: "https://geniussports.com/",
-      date: 'July 2018 – August 2020',
+      date: 'July 2018 - August 2020',
     },
     {
       role: 'International Exams Supervisor',
       companyname: 'British Council',
       companywebpage: "https://www.britishcouncil.co/",
-      date: 'July 2018 – August 2020',
+      date: 'October 2016 - Dec 2018',
     },
   ]
 }
@@ -172,8 +190,15 @@ const education = {
       title: 'Data Mining & Knowledge Discovery',
       degree: "Master's degree",
       institution: "University of Buenos Aires",
-      url: "https://www.uba.ar/#/",
+      url: "https://www.uba.ar/",
       date: '2022 - 2024',
+    },
+    {
+      title: 'Data Mining & Knowledge Discovery',
+      degree: "Postgraduate Diploma",
+      institution: "University of Buenos Aires",
+      url: "https://www.uba.ar/",
+      date: '2022 - 2023',
     },
     {
       title: 'Artificial Intelligence Specialist',
@@ -193,8 +218,12 @@ const education = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education };
 =======
 export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education};
+=======
+export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education };
+>>>>>>> 7cbe713 (Added link to links-tree, corrected dates of job, modified link to curriculum)
 
 >>>>>>> 9135c21 (Added updated info: Education, Work Experience, Skills and Repos)
