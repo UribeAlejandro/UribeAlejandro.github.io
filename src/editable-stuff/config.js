@@ -12,8 +12,8 @@ const mainBody = {
   message: " Passionate about changing the world positively with the power of data.",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/UribeAlejandro",
+      image: "far fa-calendar-plus",
+      url: "https://calendly.com/uribealejandro/30min",
     },
     {
       image: "fa-linkedin",
@@ -24,13 +24,17 @@ const mainBody = {
       url: "https://medium.com/@uribealejandro"
     },
     {
-      image: "far fa-calendar-plus",
-      url: "https://calendly.com/uribealejandro/30min",
+      image: "fa-github",
+      url: "https://github.com/UribeAlejandro",
     },
     {
-      image: "fa fa-link",
-      url: "https://beacons.ai/uribealejandro"
-    }
+      image: "fa-brands fa-kaggle",
+      url: "https://www.kaggle.com/alejandrouribe"
+    },
+    {
+      image: "fa-brands fa-hackerrank",
+      url: "https://www.hackerrank.com/UribeAlejandro"
+    },
   ],
 };
 
@@ -68,8 +72,8 @@ const repos = {
   gitHubUsername: "UribeAlejandro",
   reposLength: 0,
   specificRepos: [
+    'ExperimentTracking-StrategyPattern',
     'Hands_On_MLFlow',
-    'Do_not_Believe_the_Hype',
     'Scala_ML_PCA',
     'Scala_ML_LinearRegression',
   ],
@@ -85,13 +89,13 @@ const skills = {
     { name: "SQL / NoSQL" },
 
 
-    { name: "Docker" },
+    { name: "MLOps" },
     { name: "Machine Learning Operations" },
     { name: "Machine Learning / Deep Learning" },
 
+    { name: "AWS / GCP" },
     { name: "SnowFlake" },
-    { name: "Amazon Web Services" },
-    { name: "Google Cloud Platform" },
+    { name: "Databricks" },
   ],
   interests: [
     { name: "Cycling" },
@@ -117,7 +121,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I am currently looking for full-time and freelance Artificial Intelligence related opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "jauriberamirez@gmail.com",
+  email: "contact.uribe.alejandro@gmail.com",
 };
 
 const experiences = {
@@ -165,8 +169,15 @@ const education = {
       title: 'Data Mining & Knowledge Discovery',
       degree: "Master's degree",
       institution: "University of Buenos Aires",
-      url: "https://www.uba.ar/#/",
+      url: "https://www.uba.ar/",
       date: '2022 - 2024',
+    },
+    {
+      title: 'Data Mining & Knowledge Discovery',
+      degree: "Postgraduate Diploma",
+      institution: "University of Buenos Aires",
+      url: "https://www.uba.ar/",
+      date: '2022 - 2023',
     },
     {
       title: 'Artificial Intelligence Specialist',
