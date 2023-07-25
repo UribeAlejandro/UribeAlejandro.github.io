@@ -72,31 +72,12 @@ const repos = {
   gitHubUsername: "UribeAlejandro",
   reposLength: 0,
   specificRepos: [
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    'NLP_MovieReviews_SentimentAnalysis',
-    'RecommenderSystem_Movies',
-    'ComputerVision_MNIST',
-    'Python_TicTacToe',
-    'ComputerVision_SVHN',
-    'NaiveBayes-with-TensorFlowProbability',
-=======
-      'Hands_On_MLFlow',
-      'Do_not_Believe_the_Hype',
-      'Scala_ML_LinearRegression',
-      'Scala_ML_PCA',
-      'ComputerVision_MNIST',
-      'ComputerVision_SVHN',
->>>>>>> 9135c21 (Added updated info: Education, Work Experience, Skills and Repos)
-=======
-=======
-    'ExperimentTracking-StrategyPattern',
->>>>>>> 27574a0 (Updates)
     'Hands_On_MLFlow',
-    'Scala_ML_PCA',
+    'Do_not_Believe_the_Hype',
     'Scala_ML_LinearRegression',
->>>>>>> 7cbe713 (Added link to links-tree, corrected dates of job, modified link to curriculum)
+    'Scala_ML_PCA',
+    'ComputerVision_MNIST',
+    'ComputerVision_SVHN',
   ],
 };
 
@@ -216,14 +197,4 @@ const education = {
     },
   ]
 }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
 export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education };
-=======
-export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education};
-=======
-export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education };
->>>>>>> 7cbe713 (Added link to links-tree, corrected dates of job, modified link to curriculum)
-
->>>>>>> 9135c21 (Added updated info: Education, Work Experience, Skills and Repos)
