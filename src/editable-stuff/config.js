@@ -111,7 +111,7 @@ const skills = {
   languages: [
     { name: "Spanish", value: 'Native' },
     { name: "English", value: 'Full Professional Proficiency' },
-    { name: "French", value: 'Elementary Proficiency' },
+    { name: "French", value: 'Full Professional Proficiency' },
   ],
 };
 
