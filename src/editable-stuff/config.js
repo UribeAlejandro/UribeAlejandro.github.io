@@ -18,7 +18,6 @@ const mainBody = {
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/ualejandro/",
-
     },
     {
       image: "fab fa-brands fa-medium",
@@ -73,12 +72,10 @@ const repos = {
   gitHubUsername: "UribeAlejandro",
   reposLength: 0,
   specificRepos: [
+    'ExperimentTracking-StrategyPattern',
     'Hands_On_MLFlow',
-    'Do_not_Believe_the_Hype',
-    'Scala_ML_LinearRegression',
     'Scala_ML_PCA',
-    'ComputerVision_MNIST',
-    'ComputerVision_SVHN',
+    'Scala_ML_LinearRegression',
   ],
 };
 
@@ -200,3 +197,4 @@ const education = {
 }
 
 export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education };
+
