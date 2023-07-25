@@ -18,6 +18,7 @@ const mainBody = {
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/ualejandro/",
+
     },
     {
       image: "fab fa-brands fa-medium",
@@ -197,4 +198,5 @@ const education = {
     },
   ]
 }
+
 export { navBar, mainBody, about, repos, skills, getInTouch, experiences, education };
