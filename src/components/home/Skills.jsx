@@ -20,7 +20,7 @@ function Skills({ heading, hardSkills, interests, languages }) {
   );
   return (
     <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
-      <Container className="p-5 ">
+      <Container className="p-0">
         <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
           {heading}
         </h2>
@@ -47,7 +47,7 @@ function Skills({ heading, hardSkills, interests, languages }) {
               <SkillsTab skills={interests} isScrolled={isScrolled} />
             </Row>
           </Tab>
-         <Tab
+          <Tab
             tabClassName="skills-tab lead"
             eventKey="languages"
             title="Languages"

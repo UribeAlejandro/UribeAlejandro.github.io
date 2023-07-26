@@ -30,7 +30,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   };
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
+    <div id="aboutme" className="bg-gradient-top jumbotron jumbotron-fluid m-0">
       <div className="container container-fluid">
         <div className="row">
           <div className="col-5 d-none d-lg-block align-self-center">
