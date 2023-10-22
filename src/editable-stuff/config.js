@@ -57,7 +57,7 @@ const about = {
   heading: "About Me",
   imageSize: 375,
   message:
-    "I am a Machine Learning Engineer with experience in building AI models, implementing data warehouses, and introducing automation to improve analytics efficiency. Currently, I am studying a Master in Artificial Intelligence. I have a Postgraduate Diploma in Artificial Intelligence, and a Bachelor's Degree in Chemical Engineering. I am passionate about data and its power to change the world positively, thus my goal is to pursue this passion within the field of Artificial Intelligence. In my free time I enjoy running, cycling and watching movies.",
+    "I am a Machine Learning Engineer experienced in building ML models, implementing data warehouses, and introducing automation to improve analytics efficiency. Particular proficiency and experience in model deployment using different clouds such as GCP and AWS, as well as Managing ML Lifecycle using in-house built tools and MLFlow. Relevant projects include the development of solutions for diverse business domains in primarily banking, oil and gas, and retail sectors.",
   resume: "https://docs.google.com/document/d/1vtL4pj9FiRJ2kxAWUQ4MtOaJYYXpX2_7bSRJcZDqtLw/edit?usp=sharing",
 };
 
@@ -132,7 +132,7 @@ const experiences = {
       role: 'Machine Learning Engineer',
       companyname: 'Factored AI',
       companywebpage: "https://www.factored.ai/",
-      date: 'April 2022 - Present',
+      date: 'April 2022 - October 2023',
     },
     {
       role: 'Machine Learning Engineer',
