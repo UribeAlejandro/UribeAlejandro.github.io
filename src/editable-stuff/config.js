@@ -72,10 +72,10 @@ const repos = {
   gitHubUsername: "UribeAlejandro",
   reposLength: 0,
   specificRepos: [
-    'ExperimentTracking-StrategyPattern',
-    'Hands_On_MLFlow',
-    'Scala_ML_PCA',
-    'Scala_ML_LinearRegression',
+    'Recommender_System',
+    'RAG_SemanticRouting',
+    'SkyProphet',
+    'Brevity_text-summarization-bot',
   ],
 };
 
@@ -101,7 +101,7 @@ const skills = {
     { name: "Cycling" },
     { name: "Photography" },
 
-    { name: "Nuclear Energy" },
+    { name: "DevOps" },
     { name: "Distributed computing" },
 
     { name: "Internet of Things" },
@@ -128,6 +128,12 @@ const experiences = {
   show: true,
   heading: "Work Experience",
   data: [
+    {
+      role: 'Machine Learning Engineer',
+      companyname: 'Marvik AI',
+      companywebpage: "https://www.marvik.ai/",
+      date: 'May 2024 - Now',
+    },
     {
       role: 'Machine Learning Engineer',
       companyname: 'Factored AI',
